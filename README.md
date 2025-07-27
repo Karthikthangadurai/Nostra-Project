@@ -21,7 +21,7 @@ NOSTRA is a responsive and modern clothing website built with **HTML**, **Tailwi
 
 ###  Preview
 
-[NOSTRA Project Link]()
+[NOSTRA Project Link](https://karthikthangadurai.github.io/Nostra-Project/)
 
 
 ### 📬 Contact
