@@ -1,0 +1,131 @@
+.slider{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    z-index: 0;
+
+}
+
+.slider-image-container{
+    display: flex;
+    transition: 3s;
+
+}
+
+.slider-image {
+  height: 100%;         /* Medium height */
+  width: 100%;           /* Full width */
+  object-fit: cover;     /* Crop to fit nicely */
+  display: none;         /* Hidden by default, JS will show */
+}
+
+
+.slider-left-button{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 1;
+}
+
+.slider-left-button i{
+    font-size: 5vw;
+    
+}
+.slider-right-button{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+.slider-right-button i{
+    font-size: 5vw;
+}
+.slider-content{
+    position: absolute;
+    color: white;
+    text-align: center;
+     width: 100%;
+     top: 20%;
+}
+.slider-content h1{
+    font-size: 5vw;
+}
+
+.rel{
+    position: relative;
+}
+
+.rel img{
+    opacity: 75%;
+    border: solid greenyellow 2px;
+}
+
+.abs{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.navbar-search{
+    margin: 5px;
+    padding: 10px;
+    border: solid rgb(7, 213, 48) 1px;
+    border-radius: 25px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar-search i {
+    margin-top: 5px;
+    margin-left: 75px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-search input {
+    border: none;
+    font-size: 16px;
+    width: 80%;
+    background-color: transparent;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-search input:focus {
+    outline: none;
+}
+
+.image{
+    position: relative;
+}
+.image__one{
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+
+.image__one:hover{
+    cursor: pointer;
+}
+
+.image1{
+    position: relative;
+}
+.image1__one{
+    position: absolute;
+    top: 0;
+}
+
+.image1__one:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+.image1__two{
+    position: absolute;
+    top: 0;
+    right: 20%;
+}
