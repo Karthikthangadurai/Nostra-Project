@@ -19,13 +19,13 @@ NOSTRA is a responsive and modern clothing website built with **HTML**, **Tailwi
 * **Tailwind CSS**
 * **Vanilla JavaScript**
 
-### 📸 Preview
+###  Preview
 
-![NOSTRA Project Link](https://via.placeholder.com/1000x600?text=NOSTRA+Preview)
+[NOSTRA Project Link]()
 
 
 ### 📬 Contact
 
 Created by **\[Karthik T]** – feel free to connect!
 
-* 🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
+* 🔗 [LinkedIn](https://www.linkedin.com/in/karthikthangadurai/)
