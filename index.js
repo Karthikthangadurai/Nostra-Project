@@ -16,12 +16,12 @@ let closenav = document.getElementById("closenav")
 
 menuicon.addEventListener("click", function()
 {
-    sidenav.style.right=0
+    sidenav.style.left=0
 })
 
 closenav.addEventListener("click", function()
 {
-    sidenav.style.right="-50%"
+    sidenav.style.left="-50%"
 })
 
 // Image Slider Logic
@@ -30,7 +30,7 @@ let currentImage = 0;
 
 function showSlide(index) {
     sliderImages.forEach((img, i) => {
-        img.style.display = i === index ? "block" : "none";
+        img.style.display = i === index ? "inline-block" : "none";
     });
 }
 
