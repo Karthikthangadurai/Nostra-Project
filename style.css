@@ -67,7 +67,7 @@
 .abs{
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 23%;
 }
 
 .navbar-search{
@@ -136,6 +136,8 @@
 }
 
 /* media queries */
+
+
 @media (max-width: 768px) {
     .slider-content h2{
         font-size: 6vw;
